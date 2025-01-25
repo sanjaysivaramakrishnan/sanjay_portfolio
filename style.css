@@ -15,8 +15,9 @@ body{
 #header{
     width:100%;
     height: 100vh;
-    background-image: url(images/updated\ image.webp);
-     background-size: cover;
+    background-image: url(images/updated\ image_enhanced.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center;  
 }
 
@@ -42,7 +43,7 @@ nav ul li{
 }
 
 nav ul li a {
-    color: #f50909;
+    color: #f9120ee2;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -52,7 +53,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height:3px;
-    background-color: #160ef9e2;
+    background-color: #f9120ee2;
     position: absolute;
     left:0;
     bottom:-7px;
@@ -65,14 +66,14 @@ nav ul li a:hover::after{
 
 .header-text{
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 25px;
 }
-.header-text h1{
-    font-size: 60px;
+.header-text h3{
+    font-size: 50px;
     margin-top: 20px;
 }
 
-.header-text h1 span{
+.header-text h3 span{
     color:#ff004f;
 } 
 
